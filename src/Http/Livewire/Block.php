@@ -17,7 +17,7 @@ class Block extends Component
         ])->json();
 
         if (!$response["success"] || $response['score'] < config('gmj.laravel_block2_recaptcha_config.score')) {
-            return false;
+            abort(500, "you can't pass the recaptcha.");
         }
 
         $this->emit($callback);
