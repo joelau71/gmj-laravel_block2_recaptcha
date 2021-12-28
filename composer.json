@@ -1,0 +1,26 @@
+{
+  "name": "gmj/laravel_block2_recaptcha",
+  "description": "Laravel Block for google recaptcha v3",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joe Lau",
+      "email": "joe.laucw71@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "GMJ\\LaravelBlock2Recaptcha\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "GMJ\\LaravelBlock2Recaptcha\\LaravelBlock2RecaptchaServiceProvider"
+      ]
+    }
+  }
+}
