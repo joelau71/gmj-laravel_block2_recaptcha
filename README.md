@@ -1,13 +1,14 @@
 # gmj-laravelBlock2Recaptcha
 
-Laravel Block for google recaptcha v3
+Laravel Block for google recaptcha v3<br/>
 dependence: livewire and alpine js
 
-composer require gmj/laravel_block2_recaptcha
+**composer require gmj/laravel_block2_recaptcha**
 
-in terminal run: php artisan vendor:publish --provider="GMJ\LaravelBlock2Recaptcha\LaravelBlock2RecaptchaServiceProvider" --force
+in terminal run:<br/>
+php artisan vendor:publish --provider="GMJ\LaravelBlock2Recaptcha\LaravelBlock2RecaptchaServiceProvider" --force
 
-env:
+env:<br/>
 RECAPTCHAV3_SITEKEY={your google recaptcha sitekey number}<br/>
 RECAPTCHAV3_SECRET={your google recaptcha secret number}
 
