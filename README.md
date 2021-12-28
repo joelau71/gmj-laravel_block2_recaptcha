@@ -1,4 +1,4 @@
-# gmj-laravelBlock2Recaptcha
+# gmj-laravel_block2_recaptcha
 
 Laravel Block for google recaptcha v3<br/>
 dependence: livewire and alpine js
